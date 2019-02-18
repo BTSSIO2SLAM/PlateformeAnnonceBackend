@@ -14,5 +14,7 @@ namespace PlateformeAnnonceBackend.Models
         public string Contenu { get; set; }
         public string Prix { get; set; }
         public string UrlPhoto { get; set; }
+        public virtual Utilisateur Utilisateur { get; set; }
+        public virtual Categorie Categorie { get; set; }
     }
 }
